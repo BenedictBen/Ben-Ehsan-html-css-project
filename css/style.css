@@ -1,0 +1,115 @@
+
+body{
+
+    background-color: #eee;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-img{
+
+    width: 200px;
+}
+
+
+
+#nav-bar a{
+    padding: 10px 20px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+#form-area{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    width: 200px;
+    align-self: center;
+    margin: 10px;
+}
+
+#submit{
+    background-color: #f1c40f;
+}
+
+#services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service{
+
+    display: flex;
+    margin-bottom: 20px;
+    
+
+}
+
+.title{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+i{
+    font-size: 50px;
+    margin-right: 50px;
+    color: #f1c40f;
+}
+
+#video-area{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card{
+
+    border: 1px solid black;
+    padding: 40px;
+    margin: 0 10px;
+}
+
+#price-area{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+@media  (max-width:700px){
+
+    body{
+        background-color: #eee;
+    }
+
+}
+
+@media  (max-width:500px){
+
+    body{
+        font-size: 12px;
+    }
+
+}
+
+
